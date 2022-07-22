@@ -8,24 +8,6 @@
             "src_id": "11111111-1111-1111-1111-000000000005",
             "src_view_id": "output0"
         },
-        "link105": {
-            "dst_id": "11111111-1111-1111-1111-000000000001",
-            "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000000",
-            "src_view_id": "output0"
-        },
-        "link106": {
-            "dst_id": "11111111-1111-1111-1111-000000000000",
-            "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000002",
-            "src_view_id": "output0"
-        },
-        "link107": {
-            "dst_id": "11111111-1111-1111-1111-000000000007",
-            "dst_view_id": "inputRows",
-            "src_id": "11111111-1111-1111-1111-000000000001",
-            "src_view_id": "output0"
-        },
         "link113": {
             "dst_id": "11111111-1111-1111-1111-000000000004",
             "dst_view_id": "input0",
@@ -43,6 +25,24 @@
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-000000000000",
             "src_view_id": "output1"
+        },
+        "link118": {
+            "dst_id": "11111111-1111-1111-1111-000000000001",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "output0"
+        },
+        "link119": {
+            "dst_id": "11111111-1111-1111-1111-000000000007",
+            "dst_view_id": "inputRows",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output0"
+        },
+        "link120": {
+            "dst_id": "11111111-1111-1111-1111-000000000000",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "output0"
         }
     },
     "property_map": {
@@ -69,7 +69,7 @@
         "input": {
             "11111111-1111-1111-1111-000000000005_input0": {
                 "label": {
-                    "value": "REST Get - input0"
+                    "value": "Asana REST Get - input0"
                 },
                 "view_type": {
                     "value": "document"
@@ -77,14 +77,6 @@
             }
         },
         "output": {
-            "11111111-1111-1111-1111-000000000004_output0": {
-                "label": {
-                    "value": "REST Post - output0"
-                },
-                "view_type": {
-                    "value": "document"
-                }
-            },
             "11111111-1111-1111-1111-000000000006_output0": {
                 "label": {
                     "value": "Workday Write - output0"
@@ -118,7 +110,7 @@
         "detail_map": {
             "11111111-1111-1111-1111-000000000000": {
                 "error": {},
-                "grid_x_int": 3,
+                "grid_x_int": 6,
                 "grid_y_int": 1,
                 "index": null,
                 "input": {},
@@ -141,7 +133,7 @@
             },
             "11111111-1111-1111-1111-000000000001": {
                 "error": {},
-                "grid_x_int": 4,
+                "grid_x_int": 5,
                 "grid_y_int": 1,
                 "index": null,
                 "input": {},
@@ -153,7 +145,7 @@
             },
             "11111111-1111-1111-1111-000000000002": {
                 "error": {},
-                "grid_x_int": 2,
+                "grid_x_int": 4,
                 "grid_y_int": 1,
                 "index": null,
                 "input": {},
@@ -165,7 +157,7 @@
             },
             "11111111-1111-1111-1111-000000000003": {
                 "error": {},
-                "grid_x_int": 4,
+                "grid_x_int": 7,
                 "grid_y_int": 2,
                 "index": 0,
                 "input": {},
@@ -177,7 +169,7 @@
             },
             "11111111-1111-1111-1111-000000000004": {
                 "error": {},
-                "grid_x_int": 4,
+                "grid_x_int": 7,
                 "grid_y_int": 3,
                 "index": null,
                 "input": {},
@@ -189,7 +181,7 @@
             },
             "11111111-1111-1111-1111-000000000005": {
                 "error": {},
-                "grid_x_int": 1,
+                "grid_x_int": 3,
                 "grid_y_int": 1,
                 "index": null,
                 "input": {},
@@ -201,7 +193,7 @@
             },
             "11111111-1111-1111-1111-000000000006": {
                 "error": {},
-                "grid_x_int": 5,
+                "grid_x_int": 8,
                 "grid_y_int": 2,
                 "index": null,
                 "input": {},
@@ -213,7 +205,7 @@
             },
             "11111111-1111-1111-1111-000000000007": {
                 "error": {},
-                "grid_x_int": 5,
+                "grid_x_int": 7,
                 "grid_y_int": 1,
                 "index": null,
                 "input": {},
@@ -555,22 +547,17 @@
                         }
                     }
                 },
-                "output": {
-                    "output0": {
-                        "label": {
-                            "value": "output0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
+                "output": {},
                 "settings": {
                     "batchSize": {
                         "value": null
                     },
                     "connTimeout": {
                         "value": 30
+                    },
+                    "cookiePolicy": {
+                        "expression": false,
+                        "value": null
                     },
                     "entity": {
                         "expression": true,
@@ -656,6 +643,9 @@
                                     "expression": false,
                                     "value": null
                                 },
+                                "partType": {
+                                    "value": "FILE"
+                                },
                                 "uploadFile": {
                                     "expression": false,
                                     "value": null
@@ -716,7 +706,7 @@
                 },
                 "info": {
                     "label": {
-                        "value": "REST Get"
+                        "value": "Asana REST Get"
                     },
                     "notes": {}
                 },
@@ -743,6 +733,10 @@
                 "settings": {
                     "connTimeout": {
                         "value": 30
+                    },
+                    "cookiePolicy": {
+                        "expression": false,
+                        "value": null
                     },
                     "executeDuringPreview": {
                         "value": true
