@@ -5,47 +5,47 @@
         "link145": {
             "dst_id": "11111111-1111-1111-1111-000000000004",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000008",
-            "src_view_id": "output0"
-        },
-        "link151": {
-            "dst_id": "11111111-1111-1111-1111-000000000000",
-            "dst_view_id": "inputRows",
             "src_id": "11111111-1111-1111-1111-000000000003",
             "src_view_id": "output0"
         },
-        "link154": {
+        "link151": {
             "dst_id": "11111111-1111-1111-1111-000000000008",
+            "dst_view_id": "inputRows",
+            "src_id": "11111111-1111-1111-1111-000000000007",
+            "src_view_id": "output0"
+        },
+        "link154": {
+            "dst_id": "11111111-1111-1111-1111-000000000003",
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-000000000002",
             "src_view_id": "output0"
         },
         "link156": {
-            "dst_id": "11111111-1111-1111-1111-000000000003",
+            "dst_id": "11111111-1111-1111-1111-000000000007",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_id": "11111111-1111-1111-1111-000000000005",
             "src_view_id": "output1"
         },
         "link157": {
             "dst_id": "11111111-1111-1111-1111-000000000002",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000007",
+            "src_id": "11111111-1111-1111-1111-000000000000",
             "src_view_id": "outputRows"
         },
         "link158": {
             "dst_id": "11111111-1111-1111-1111-000000000002",
             "dst_view_id": "input1",
-            "src_id": "11111111-1111-1111-1111-000000000006",
+            "src_id": "11111111-1111-1111-1111-000000000001",
             "src_view_id": "outputRows"
         },
         "link159": {
-            "dst_id": "11111111-1111-1111-1111-000000000005",
+            "dst_id": "11111111-1111-1111-1111-000000000006",
             "dst_view_id": "inputRows",
-            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_id": "11111111-1111-1111-1111-000000000005",
             "src_view_id": "output0"
         },
         "link162": {
-            "dst_id": "11111111-1111-1111-1111-000000000001",
+            "dst_id": "11111111-1111-1111-1111-000000000005",
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-000000000004",
             "src_view_id": "output0"
@@ -74,7 +74,7 @@
         },
         "input": {},
         "output": {
-            "11111111-1111-1111-1111-000000000005_output101": {
+            "11111111-1111-1111-1111-000000000006_output101": {
                 "label": {
                     "value": "Snowflake - Insert - output0"
                 },
@@ -107,8 +107,8 @@
         "detail_map": {
             "11111111-1111-1111-1111-000000000000": {
                 "error": {},
-                "grid_x_int": 8,
-                "grid_y_int": 2,
+                "grid_x_int": 2,
+                "grid_y_int": 1,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -119,18 +119,15 @@
             },
             "11111111-1111-1111-1111-000000000001": {
                 "error": {},
-                "grid_x_int": 6,
-                "grid_y_int": 1,
+                "grid_x_int": 2,
+                "grid_y_int": 2,
+                "index": null,
                 "input": {},
-                "output": {
-                    "output1": {
-                        "dx_int": 0,
-                        "dy_int": 1,
-                        "rot_int": 0
-                    }
-                },
+                "output": {},
+                "recommendation_id": null,
                 "rot_int": 0,
-                "rot_tail_int": 0
+                "rot_tail_int": 0,
+                "source": ""
             },
             "11111111-1111-1111-1111-000000000002": {
                 "error": {},
@@ -152,15 +149,12 @@
             },
             "11111111-1111-1111-1111-000000000003": {
                 "error": {},
-                "grid_x_int": 7,
-                "grid_y_int": 2,
-                "index": null,
+                "grid_x_int": 4,
+                "grid_y_int": 1,
                 "input": {},
                 "output": {},
-                "recommendation_id": null,
                 "rot_int": 0,
-                "rot_tail_int": 0,
-                "source": ""
+                "rot_tail_int": 0
             },
             "11111111-1111-1111-1111-000000000004": {
                 "error": {},
@@ -176,6 +170,21 @@
             },
             "11111111-1111-1111-1111-000000000005": {
                 "error": {},
+                "grid_x_int": 6,
+                "grid_y_int": 1,
+                "input": {},
+                "output": {
+                    "output1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    }
+                },
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000006": {
+                "error": {},
                 "grid_x_int": 7,
                 "grid_y_int": 1,
                 "index": null,
@@ -186,22 +195,10 @@
                 "rot_tail_int": 0,
                 "source": ""
             },
-            "11111111-1111-1111-1111-000000000006": {
-                "error": {},
-                "grid_x_int": 2,
-                "grid_y_int": 2,
-                "index": null,
-                "input": {},
-                "output": {},
-                "recommendation_id": null,
-                "rot_int": 0,
-                "rot_tail_int": 0,
-                "source": ""
-            },
             "11111111-1111-1111-1111-000000000007": {
                 "error": {},
-                "grid_x_int": 2,
-                "grid_y_int": 1,
+                "grid_x_int": 7,
+                "grid_y_int": 2,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -212,12 +209,15 @@
             },
             "11111111-1111-1111-1111-000000000008": {
                 "error": {},
-                "grid_x_int": 4,
-                "grid_y_int": 1,
+                "grid_x_int": 8,
+                "grid_y_int": 2,
+                "index": null,
                 "input": {},
                 "output": {},
+                "recommendation_id": null,
                 "rot_int": 0,
-                "rot_tail_int": 0
+                "rot_tail_int": 0,
+                "source": ""
             }
         },
         "pan_x_num": 0,
@@ -226,17 +226,17 @@
     },
     "snap_map": {
         "11111111-1111-1111-1111-000000000000": {
-            "class_id": "com-snaplogic-snaps-oracle-insert",
-            "class_version": 1,
+            "class_id": "com-snaplogic-snaps-oracle-select",
+            "class_version": 3,
             "instance_id": "11111111-1111-1111-1111-000000000000",
             "property_map": {
                 "account": {
                     "account_ref": {
-                        "expression": false,
                         "value": {
                             "label": {
                                 "expression": false,
-                                "value": "Oracle SE Demo db:salesora on cwztruwzzvnq.us-east-1.rds.amazonaws.com"
+                                "label": "../shared/OracleDB_Dylan",
+                                "value": "OracleDB_Dylan"
                             },
                             "ref_class_id": {
                                 "value": "com-snaplogic-snap-api-sql-accounts-oraclethindatabaseaccount"
@@ -263,14 +263,13 @@
                 },
                 "info": {
                     "label": {
-                        "value": "Oracle - Insert into student4"
+                        "value": "Oracle - Students"
                     },
-                    "notes": {
-                        "value": null
-                    }
+                    "notes": {}
                 },
-                "input": {
-                    "inputRows": {
+                "input": {},
+                "output": {
+                    "outputRows": {
                         "label": {
                             "value": "rows"
                         },
@@ -280,21 +279,41 @@
                     }
                 },
                 "settings": {
-                    "createTable": {
-                        "value": true
-                    },
-                    "executable_during_suggest": {
-                        "value": false
+                    "autoCommit": {
+                        "value": "False"
                     },
                     "execution_mode": {
-                        "value": "Execute only"
+                        "value": "Validate & Execute"
+                    },
+                    "fetchOutputFieldsInSchema": {
+                        "value": false
+                    },
+                    "ignoreEmptyResult": {
+                        "value": false
+                    },
+                    "limitOffset": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "limitRows": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "matchDataTypes": {
+                        "value": false
                     },
                     "maxRetryProp": {
                         "expression": false,
                         "value": 0
                     },
-                    "preserveCaseSensistiveness": {
-                        "value": false
+                    "orderBy": {
+                        "value": []
+                    },
+                    "outputFields": {
+                        "value": []
+                    },
+                    "passThrough": {
+                        "value": true
                     },
                     "retryIntervalProp": {
                         "expression": false,
@@ -302,24 +321,46 @@
                     },
                     "schemaName": {
                         "expression": false,
-                        "value": "\"DEMO\""
+                        "value": "\"ADMIN\""
                     },
-                    "sessionParamsProp": {
-                        "value": []
+                    "stagingMode": {
+                        "value": "In memory"
                     },
                     "tableName": {
                         "expression": false,
-                        "value": "\"DEMO\".\"STUDENTV4\""
+                        "value": "\"ADMIN\".\"studentv4\""
+                    },
+                    "whereClause": {
+                        "expression": false,
+                        "value": null
                     }
                 },
                 "view_serial": 100
             }
         },
         "11111111-1111-1111-1111-000000000001": {
-            "class_id": "com-snaplogic-snaps-flow-copy",
-            "class_version": 1,
+            "class_id": "com-snaplogic-snaps-oracle-select",
+            "class_version": 3,
             "instance_id": "11111111-1111-1111-1111-000000000001",
             "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "label": "../shared/OracleDB_Dylan",
+                                "value": "OracleDB_Dylan"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snap-api-sql-accounts-oraclethindatabaseaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
                 "error": {
                     "error0": {
                         "label": {
@@ -335,34 +376,15 @@
                 },
                 "info": {
                     "label": {
-                        "value": "Copy"
+                        "value": "Oracle - Majors"
                     },
-                    "notes": {
-                        "value": null
-                    }
+                    "notes": {}
                 },
-                "input": {
-                    "input0": {
-                        "label": {
-                            "value": "input0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
+                "input": {},
                 "output": {
-                    "output0": {
+                    "outputRows": {
                         "label": {
-                            "value": "output0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    },
-                    "output1": {
-                        "label": {
-                            "value": "output1"
+                            "value": "rows"
                         },
                         "view_type": {
                             "value": "document"
@@ -370,11 +392,63 @@
                     }
                 },
                 "settings": {
+                    "autoCommit": {
+                        "value": "False"
+                    },
                     "execution_mode": {
                         "value": "Validate & Execute"
+                    },
+                    "fetchOutputFieldsInSchema": {
+                        "value": false
+                    },
+                    "ignoreEmptyResult": {
+                        "value": false
+                    },
+                    "limitOffset": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "limitRows": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "matchDataTypes": {
+                        "value": false
+                    },
+                    "maxRetryProp": {
+                        "expression": false,
+                        "value": 0
+                    },
+                    "orderBy": {
+                        "value": []
+                    },
+                    "outputFields": {
+                        "value": []
+                    },
+                    "passThrough": {
+                        "value": true
+                    },
+                    "retryIntervalProp": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "schemaName": {
+                        "expression": false,
+                        "value": "\"ADMIN\""
+                    },
+                    "stagingMode": {
+                        "value": "In memory"
+                    },
+                    "tableName": {
+                        "expression": false,
+                        "value": "\"ADMIN\".\"major\""
+                    },
+                    "whereClause": {
+                        "expression": false,
+                        "value": null
                     }
                 },
-                "view_serial": 101
+                "view_serial": 100
             }
         },
         "11111111-1111-1111-1111-000000000002": {
@@ -474,10 +548,28 @@
             }
         },
         "11111111-1111-1111-1111-000000000003": {
-            "class_id": "com-snaplogic-snaps-transform-datatransform",
-            "class_version": 4,
+            "class_id": "com-snaplogic-snaps-sqlserver-lookup",
+            "class_version": 3,
             "instance_id": "11111111-1111-1111-1111-000000000003",
             "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "value": "SQL Server SE Demo (Amazon)"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snap-api-sql-accounts-sqlserverdatabaseaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
                 "error": {
                     "error0": {
                         "label": {
@@ -493,7 +585,7 @@
                 },
                 "info": {
                     "label": {
-                        "value": "Map to Oracle"
+                        "value": "Lookup campus name"
                     },
                     "notes": {
                         "value": null
@@ -523,103 +615,48 @@
                     "execution_mode": {
                         "value": "Validate & Execute"
                     },
-                    "nullSafeAccess": {
-                        "value": false
+                    "lookupConditions": {
+                        "value": [
+                            {
+                                "column": {
+                                    "expression": false,
+                                    "value": "\"campus_code\""
+                                },
+                                "value": {
+                                    "expression": true,
+                                    "value": "$campus_code"
+                                }
+                            }
+                        ]
+                    },
+                    "maxRetryProp": {
+                        "expression": false,
+                        "value": 0
+                    },
+                    "outputFields": {
+                        "value": [
+                            {
+                                "outputField": {
+                                    "expression": false,
+                                    "value": "\"campus_name\""
+                                }
+                            }
+                        ]
                     },
                     "passThrough": {
-                        "value": false
+                        "value": true
                     },
-                    "transformations": {
-                        "value": {
-                            "mappingRoot": {
-                                "value": "$"
-                            },
-                            "mappingTable": {
-                                "value": [
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "Date.now()"
-                                        },
-                                        "targetPath": {
-                                            "value": "$last_update"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$degree_type"
-                                        },
-                                        "targetPath": {
-                                            "value": "$degree_type"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$campus_code"
-                                        },
-                                        "targetPath": {
-                                            "value": "$campus_code"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$student_id"
-                                        },
-                                        "targetPath": {
-                                            "value": "$student_id"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$first_name"
-                                        },
-                                        "targetPath": {
-                                            "value": "$first_name"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$last_name"
-                                        },
-                                        "targetPath": {
-                                            "value": "$last_name"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "pipe.ruuid"
-                                        },
-                                        "targetPath": {
-                                            "value": "$updated_by_pipeline"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$advisor"
-                                        },
-                                        "targetPath": {
-                                            "value": "$advisor"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$homestate"
-                                        },
-                                        "targetPath": {
-                                            "value": "$homestate"
-                                        }
-                                    }
-                                ]
-                            }
-                        }
+                    "retryIntervalProp": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "schemaName": {
+                        "expression": false,
+                        "value": "\"dbo\""
+                    },
+                    "tableName": {
+                        "expression": false,
+                        "value": "\"dbo\".\"campus\""
                     }
                 },
                 "view_serial": 100
@@ -769,9 +806,71 @@
             }
         },
         "11111111-1111-1111-1111-000000000005": {
-            "class_id": "com-snaplogic-snaps-snowflake-insert",
+            "class_id": "com-snaplogic-snaps-flow-copy",
             "class_version": 1,
             "instance_id": "11111111-1111-1111-1111-000000000005",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Copy"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output1": {
+                        "label": {
+                            "value": "output1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    }
+                },
+                "view_serial": 101
+            }
+        },
+        "11111111-1111-1111-1111-000000000006": {
+            "class_id": "com-snaplogic-snaps-snowflake-insert",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000006",
             "property_map": {
                 "account": {
                     "account_ref": {
@@ -866,142 +965,11 @@
                 "view_serial": 101
             }
         },
-        "11111111-1111-1111-1111-000000000006": {
-            "class_id": "com-snaplogic-snaps-oracle-select",
-            "class_version": 3,
-            "instance_id": "11111111-1111-1111-1111-000000000006",
-            "property_map": {
-                "account": {
-                    "account_ref": {
-                        "value": {
-                            "label": {
-                                "expression": false,
-                                "label": "../shared/OracleDB_Dylan",
-                                "value": "OracleDB_Dylan"
-                            },
-                            "ref_class_id": {
-                                "value": "com-snaplogic-snap-api-sql-accounts-oraclethindatabaseaccount"
-                            },
-                            "ref_id": {
-                                "expression": false,
-                                "value": null
-                            }
-                        }
-                    }
-                },
-                "error": {
-                    "error0": {
-                        "label": {
-                            "value": "error0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    },
-                    "error_behavior": {
-                        "value": "fail"
-                    }
-                },
-                "info": {
-                    "label": {
-                        "value": "Oracle - Majors"
-                    },
-                    "notes": {}
-                },
-                "input": {},
-                "output": {
-                    "outputRows": {
-                        "label": {
-                            "value": "rows"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "settings": {
-                    "autoCommit": {
-                        "value": "False"
-                    },
-                    "execution_mode": {
-                        "value": "Validate & Execute"
-                    },
-                    "fetchOutputFieldsInSchema": {
-                        "value": false
-                    },
-                    "ignoreEmptyResult": {
-                        "value": false
-                    },
-                    "limitOffset": {
-                        "expression": false,
-                        "value": null
-                    },
-                    "limitRows": {
-                        "expression": false,
-                        "value": null
-                    },
-                    "matchDataTypes": {
-                        "value": false
-                    },
-                    "maxRetryProp": {
-                        "expression": false,
-                        "value": 0
-                    },
-                    "orderBy": {
-                        "value": []
-                    },
-                    "outputFields": {
-                        "value": []
-                    },
-                    "passThrough": {
-                        "value": true
-                    },
-                    "retryIntervalProp": {
-                        "expression": false,
-                        "value": 1
-                    },
-                    "schemaName": {
-                        "expression": false,
-                        "value": "\"ADMIN\""
-                    },
-                    "stagingMode": {
-                        "value": "In memory"
-                    },
-                    "tableName": {
-                        "expression": false,
-                        "value": "\"ADMIN\".\"major\""
-                    },
-                    "whereClause": {
-                        "expression": false,
-                        "value": null
-                    }
-                },
-                "view_serial": 100
-            }
-        },
         "11111111-1111-1111-1111-000000000007": {
-            "class_id": "com-snaplogic-snaps-oracle-select",
-            "class_version": 3,
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
             "instance_id": "11111111-1111-1111-1111-000000000007",
             "property_map": {
-                "account": {
-                    "account_ref": {
-                        "value": {
-                            "label": {
-                                "expression": false,
-                                "label": "../shared/OracleDB_Dylan",
-                                "value": "OracleDB_Dylan"
-                            },
-                            "ref_class_id": {
-                                "value": "com-snaplogic-snap-api-sql-accounts-oraclethindatabaseaccount"
-                            },
-                            "ref_id": {
-                                "expression": false,
-                                "value": null
-                            }
-                        }
-                    }
-                },
                 "error": {
                     "error0": {
                         "label": {
@@ -1017,120 +985,7 @@
                 },
                 "info": {
                     "label": {
-                        "value": "Oracle - Students"
-                    },
-                    "notes": {}
-                },
-                "input": {},
-                "output": {
-                    "outputRows": {
-                        "label": {
-                            "value": "rows"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "settings": {
-                    "autoCommit": {
-                        "value": "False"
-                    },
-                    "execution_mode": {
-                        "value": "Validate & Execute"
-                    },
-                    "fetchOutputFieldsInSchema": {
-                        "value": false
-                    },
-                    "ignoreEmptyResult": {
-                        "value": false
-                    },
-                    "limitOffset": {
-                        "expression": false,
-                        "value": null
-                    },
-                    "limitRows": {
-                        "expression": false,
-                        "value": null
-                    },
-                    "matchDataTypes": {
-                        "value": false
-                    },
-                    "maxRetryProp": {
-                        "expression": false,
-                        "value": 0
-                    },
-                    "orderBy": {
-                        "value": []
-                    },
-                    "outputFields": {
-                        "value": []
-                    },
-                    "passThrough": {
-                        "value": true
-                    },
-                    "retryIntervalProp": {
-                        "expression": false,
-                        "value": 1
-                    },
-                    "schemaName": {
-                        "expression": false,
-                        "value": "\"ADMIN\""
-                    },
-                    "stagingMode": {
-                        "value": "In memory"
-                    },
-                    "tableName": {
-                        "expression": false,
-                        "value": "\"ADMIN\".\"studentv4\""
-                    },
-                    "whereClause": {
-                        "expression": false,
-                        "value": null
-                    }
-                },
-                "view_serial": 100
-            }
-        },
-        "11111111-1111-1111-1111-000000000008": {
-            "class_id": "com-snaplogic-snaps-sqlserver-lookup",
-            "class_version": 3,
-            "instance_id": "11111111-1111-1111-1111-000000000008",
-            "property_map": {
-                "account": {
-                    "account_ref": {
-                        "expression": false,
-                        "value": {
-                            "label": {
-                                "expression": false,
-                                "value": "SQL Server SE Demo (Amazon)"
-                            },
-                            "ref_class_id": {
-                                "value": "com-snaplogic-snap-api-sql-accounts-sqlserverdatabaseaccount"
-                            },
-                            "ref_id": {
-                                "expression": false,
-                                "value": null
-                            }
-                        }
-                    }
-                },
-                "error": {
-                    "error0": {
-                        "label": {
-                            "value": "error0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    },
-                    "error_behavior": {
-                        "value": "fail"
-                    }
-                },
-                "info": {
-                    "label": {
-                        "value": "Lookup campus name"
+                        "value": "Map to Oracle"
                     },
                     "notes": {
                         "value": null
@@ -1160,36 +1015,178 @@
                     "execution_mode": {
                         "value": "Validate & Execute"
                     },
-                    "lookupConditions": {
-                        "value": [
-                            {
-                                "column": {
-                                    "expression": false,
-                                    "value": "\"campus_code\""
-                                },
-                                "value": {
-                                    "expression": true,
-                                    "value": "$campus_code"
-                                }
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "Date.now()"
+                                        },
+                                        "targetPath": {
+                                            "value": "$last_update"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$degree_type"
+                                        },
+                                        "targetPath": {
+                                            "value": "$degree_type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$campus_code"
+                                        },
+                                        "targetPath": {
+                                            "value": "$campus_code"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$student_id"
+                                        },
+                                        "targetPath": {
+                                            "value": "$student_id"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$first_name"
+                                        },
+                                        "targetPath": {
+                                            "value": "$first_name"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$last_name"
+                                        },
+                                        "targetPath": {
+                                            "value": "$last_name"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "pipe.ruuid"
+                                        },
+                                        "targetPath": {
+                                            "value": "$updated_by_pipeline"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$advisor"
+                                        },
+                                        "targetPath": {
+                                            "value": "$advisor"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$homestate"
+                                        },
+                                        "targetPath": {
+                                            "value": "$homestate"
+                                        }
+                                    }
+                                ]
                             }
-                        ]
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000008": {
+            "class_id": "com-snaplogic-snaps-oracle-insert",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000008",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "value": "Oracle SE Demo db:salesora on cwztruwzzvnq.us-east-1.rds.amazonaws.com"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snap-api-sql-accounts-oraclethindatabaseaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Oracle - Insert into student4"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "inputRows": {
+                        "label": {
+                            "value": "rows"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "createTable": {
+                        "value": true
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "execution_mode": {
+                        "value": "Execute only"
                     },
                     "maxRetryProp": {
                         "expression": false,
                         "value": 0
                     },
-                    "outputFields": {
-                        "value": [
-                            {
-                                "outputField": {
-                                    "expression": false,
-                                    "value": "\"campus_name\""
-                                }
-                            }
-                        ]
-                    },
-                    "passThrough": {
-                        "value": true
+                    "preserveCaseSensistiveness": {
+                        "value": false
                     },
                     "retryIntervalProp": {
                         "expression": false,
@@ -1197,11 +1194,14 @@
                     },
                     "schemaName": {
                         "expression": false,
-                        "value": "\"dbo\""
+                        "value": "\"DEMO\""
+                    },
+                    "sessionParamsProp": {
+                        "value": []
                     },
                     "tableName": {
                         "expression": false,
-                        "value": "\"dbo\".\"campus\""
+                        "value": "\"DEMO\".\"STUDENTV4\""
                     }
                 },
                 "view_serial": 100
