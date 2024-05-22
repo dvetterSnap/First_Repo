@@ -1,0 +1,23 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "Oracle into MSSQL Task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "job_type": "standard",
+        "pipeline_parameters": {},
+        "pipeline_path": "Oracle into MSSQL",
+        "snaplex_path": "TriggerCloudplex"
+    },
+    "schedule": {
+        "start_date": "2024-05-22",
+        "start_time": "17:30:57",
+        "time_zone": "US/Pacific"
+    },
+    "trigger": {
+        "start_date": "2024-05-22",
+        "start_time": "17:30:57",
+        "time_zone": "US/Pacific"
+    },
+    "trigger_type": "ScheduleTrigger"
+}
