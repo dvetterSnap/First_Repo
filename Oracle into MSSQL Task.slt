@@ -3,7 +3,7 @@
     "job_name": "Oracle into MSSQL Task",
     "note": "",
     "parameters": {
-        "enabled": true,
+        "enabled": false,
         "job_type": "standard",
         "pipeline_parameters": {},
         "pipeline_path": "Oracle into MSSQL",
