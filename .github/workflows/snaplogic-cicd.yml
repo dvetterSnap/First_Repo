@@ -30,4 +30,4 @@ jobs:
             "https://elastic.snaplogic.com/api/1/rest/public/project/pull/SEDemo/Dylan%20Vetter/prod_space" \
             -H "Content-Type: application/json" \
             -H "Authorization: Basic ${{ secrets.DV_SNAPLOGIC_BASE64 }}" \
-            -d '{"use_theirs":"true"}'
+            -d '{"use_theirs":["*"]}'
