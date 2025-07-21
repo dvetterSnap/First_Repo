@@ -7,7 +7,7 @@
         "job_type": "standard",
         "pipeline_parameters": {},
         "pipeline_path": "Oracle into MSSQL",
-        "snaplex_path": "TriggerCloudplex"
+        "snaplex_path": null
     },
     "schedule": {
         "start_date": "2024-05-22",
