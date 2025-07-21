@@ -26,8 +26,9 @@ jobs:
 
       - name: Deploy assets to SnapLogic Prod project
         run: |
-          curl -s -X POST \
+            curl -s -X POST \
             "https://elastic.snaplogic.com/api/1/rest/public/project/pull/SEDemo/Dylan%20Vetter/prod_space" \
             -H "Content-Type: application/json" \
-            -H "Authorization: Basic ${{ secrets.DV_SNAPLOGIC_BASE64 }}" \
+            -H "Authorization: Basic ZHZldHRlckBzbmFwbG9naWMuY29tOlNuYXBsb2dpYzI0IQ==" \
             -d '{"use_theirs":["*"]}'
+
