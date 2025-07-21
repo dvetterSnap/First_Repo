@@ -569,6 +569,9 @@
                     }
                 },
                 "settings": {
+                    "execution_mode": {
+                        "value": "Execute only"
+                    },
                     "firstMatch": {
                         "value": true
                     },
